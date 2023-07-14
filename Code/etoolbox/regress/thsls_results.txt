@@ -1,0 +1,99 @@
+thsls_d
+Elapsed time is 0.087054 seconds.
+
+Three Stage Least-squares Estimates -- Equation   1 
+Dependent Variable =         y1-LHS   
+R-squared      =    0.5487 
+Rbar-squared   =    0.5441 
+sigma^2        =    0.8055 
+Durbin-Watson  =    1.9647 
+Nobs, Nvars    =    100,     2 
+***************************************************************
+Variable      Coefficient      t-statistic    t-probability 
+constant         9.905151       109.722622         0.000000 
+x1 var           0.960774        11.025494         0.000000 
+
+
+Three Stage Least-squares Estimates -- Equation   2 
+Dependent Variable =         y2-LHS   
+R-squared      =    0.5090 
+Rbar-squared   =    0.4988 
+sigma^2        =    2.0221 
+Durbin-Watson  =    1.6625 
+Nobs, Nvars    =    100,     3 
+***************************************************************
+Variable      Coefficient      t-statistic    t-probability 
+y1 var           0.848036         5.876681         0.000000 
+constant        11.389202         7.844594         0.000000 
+x2 var           0.831884         5.895534         0.000000 
+
+
+Three Stage Least-squares Estimates -- Equation   3 
+Dependent Variable =         y3-LHS   
+R-squared      =    0.8663 
+Rbar-squared   =    0.8621 
+sigma^2        =    1.3678 
+Durbin-Watson  =    1.7194 
+Nobs, Nvars    =    100,     4 
+***************************************************************
+Variable      Coefficient      t-statistic    t-probability 
+y2 var           0.887570         6.297706         0.000000 
+constant        12.087902         4.309296         0.000038 
+x2 var           0.955623         6.167030         0.000000 
+x3 var           0.945655        12.209476         0.000000 
+
+Cross-equation sig(i,j) estimates 
+equation    y1-LHS    y2-LHS    y3-LHS 
+y1-LHS      0.8055    0.1658    0.1495 
+y2-LHS      0.1658    2.0222    1.2745 
+y3-LHS      0.1495    1.2745    1.3714 
+
+
+Cross-equation correlations 
+equation    y1-LHS    y2-LHS    y3-LHS 
+y1-LHS      1.0000    0.1299    0.1423 
+y2-LHS      0.1299    1.0000    0.7653 
+y3-LHS      0.1423    0.7653    1.0000 
+
+
+Ordinary Least-squares Estimates 
+Dependent Variable =       ols: y1 eq 
+R-squared      =    0.5487 
+Rbar-squared   =    0.5441 
+sigma^2        =    0.8220 
+Durbin-Watson  =    1.9647 
+Nobs, Nvars    =    100,     2 
+***************************************************************
+Variable        Coefficient      t-statistic    t-probability 
+constant           9.905151       108.619847         0.000000 
+x1                 0.960780        10.914743         0.000000 
+
+
+Ordinary Least-squares Estimates 
+Dependent Variable =       ols: y2 eq 
+R-squared      =    0.5127 
+Rbar-squared   =    0.5027 
+sigma^2        =    2.0687 
+Durbin-Watson  =    1.6575 
+Nobs, Nvars    =    100,     3 
+***************************************************************
+Variable        Coefficient      t-statistic    t-probability 
+y1                 0.940993         8.712894         0.000000 
+constant          10.458504         9.587159         0.000000 
+x2                 0.830631         5.785712         0.000000 
+
+
+Ordinary Least-squares Estimates 
+Dependent Variable =       ols: y3 eq 
+R-squared      =    0.9198 
+Rbar-squared   =    0.9173 
+sigma^2        =    0.8545 
+Durbin-Watson  =    1.8199 
+Nobs, Nvars    =    100,     4 
+***************************************************************
+Variable        Coefficient      t-statistic    t-probability 
+y2                 1.279507        26.126010         0.000000 
+constant           4.291792         4.385448         0.000030 
+x2                 0.657790         6.657868         0.000000 
+x3                 0.902218         9.557844         0.000000 
+
